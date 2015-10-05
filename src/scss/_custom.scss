@@ -11,20 +11,22 @@ body {
     div.left-profile {
       box-sizing: border-box;
       background-color: white;
+      border: #222 1.5px solid;
       border-radius: 13px;
       padding-left: 30px;
-      margin-top: 80px;
+      margin-top: 39px;
       width: 300px;
-      height: 700px;
+      height: 1200px;
       display: inline-block;
+
       h3 {
-        border-bottom: #222 4px solid;
+        border-bottom: lightgrey 2.5px solid;
         width: 100%;
-        padding-left: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 14px;
         border-spacing: 20px;
-        font-size: 16pt;
-        color: lightgrey;
+        font-size: 20pt;
+        font-weight: lighter bold;
+        color: #839296;
         line-height: 20px;
       }
       p#org {
@@ -59,11 +61,12 @@ body {
       p#join-date {
         text-align: left;
         color: cornflowerblue;
+        padding-bottom: 25px;
+        border-bottom:lightgrey 2.5px solid;
         i {
           padding-right: 10px;
         } /* End of the icon */
       } /* End of the p#join-date */
-
 
     } /* End of the left profile */
 
@@ -71,10 +74,11 @@ body {
     div.right-profile {
       background-color: white;
       border-radius: 13px;
+      border: #222 1.5px solid;
       margin-top: 40px;
-      padding-left: 30px;
+      padding-left: 57px;
       width: 650px;
-      height: 700px;
+      height: 1200px;
       float: right;
       display: inline-block;
 
@@ -83,6 +87,12 @@ body {
 
   } /* End of the main container */
 
+  footer {
+    border-bottom: lightgrey 2.5px solid;
+    padding-bottom: 15px;
+    color: cornflowerblue;
+
+  }
 } /* End of the body tag */
 
 /* Media */
@@ -90,7 +100,7 @@ body {
 img {
   height: auto;
   width: auto;
-  padding-top: 20px;
+  padding-top: 4px;
   padding-right: 45px;
 
 } /* End of the image */
