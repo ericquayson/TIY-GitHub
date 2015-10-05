@@ -1,34 +1,98 @@
 
 body {
-  background-color: #222;
-
+  background-color: #FAEBD7;
+  opacity: 20%;
 
   main.container {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-right: 5%;
 
     div.left-profile {
       box-sizing: border-box;
       background-color: white;
-      border-right: pink 10px solid;
-      padding-left: 45px;
+      border-radius: 13px;
+      padding-left: 30px;
       margin-top: 80px;
       width: 300px;
-      height: 500px;
+      height: 700px;
       display: inline-block;
+      h3 {
+        border-bottom: #222 4px solid;
+        width: 100%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        border-spacing: 20px;
+        font-size: 16pt;
+        color: lightgrey;
+        line-height: 20px;
+      }
+      p#org {
+        text-align: left;
+        letter-spacing: .5px;
+        i {
+          padding-right: 10px;
+        } /* First icon */
+      } /* End of the p */
+      p#hometown {
+        text-align: left;
+        letter-spacing: .5px;
+        i {
+          padding-right: 10px;
+        } /* Second icon */
+      } /* End of the p */
+      p#email {
+        text-align: left;
+        letter-spacing: .5px;
+        i {
+          padding-right: 10px;
+        }
+      } /* End of the p */
+      p#blog {
+        text-align: left;
+        letter-spacing: .2px;
+        color: cornflowerblue;
+        i {
+          padding-right: 10px;
+        }
+      } /* End of the p */
+      p#join-date {
+        text-align: left;
+        color: cornflowerblue;
+        i {
+          padding-right: 10px;
+        } /* End of the icon */
+      } /* End of the p#join-date */
+
+
     } /* End of the left profile */
+
+
     div.right-profile {
       background-color: white;
+      border-radius: 13px;
       margin-top: 40px;
+      padding-left: 30px;
       width: 650px;
-      height: 500px;
+      height: 700px;
       float: right;
       display: inline-block;
 
-      } /* End of right-profile */
 
+    } /* End of right-profile */
 
   } /* End of the main container */
 
 } /* End of the body tag */
+
+/* Media */
+
+img {
+  height: auto;
+  width: auto;
+  padding-top: 20px;
+  padding-right: 45px;
+
+} /* End of the image */
+
+/* End of media */
