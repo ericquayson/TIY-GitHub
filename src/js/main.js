@@ -1,6 +1,10 @@
-$(function () {
-  $.ajax({
-    url: "https://api.github.com/users/octocat"
-    console.log();
-  })
-})();
+// Making the respitory active
+
+function selectedTab (id) {
+  var tab = document.getElementById('repo');
+  if (tab === active) {
+
+  } else {
+    
+  }
+}
