@@ -29,28 +29,28 @@ body {
         color: #839296;
         line-height: 20px;
       }
-      p#org {
+      li#org {
         text-align: left;
         letter-spacing: .5px;
         i {
           padding-right: 10px;
         } /* First icon */
       } /* End of the p */
-      p#hometown {
+      li#hometown {
         text-align: left;
         letter-spacing: .5px;
         i {
           padding-right: 10px;
         } /* Second icon */
       } /* End of the p */
-      p#email {
+      li#email {
         text-align: left;
         letter-spacing: .5px;
         i {
           padding-right: 10px;
         }
       } /* End of the p */
-      p#blog {
+      li#blog {
         text-align: left;
         letter-spacing: .2px;
         color: cornflowerblue;
@@ -58,7 +58,7 @@ body {
           padding-right: 10px;
         }
       } /* End of the p */
-      p#join-date {
+      li#join-date {
         text-align: left;
         color: cornflowerblue;
         padding-bottom: 25px;

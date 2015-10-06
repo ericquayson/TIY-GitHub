@@ -1,12 +1,12 @@
 {
   "name": "TIY-GitHub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "start": "browser-sync",
-    "sass": "scss/main.scss"
+    "sass": "node-sass src/scss/custom.scss --output src/css/"
   },
   "repository": {
     "type": "git",
