@@ -19,3 +19,10 @@ $(document).ready(function) {
     $('#public').html('<div> public_activity ' + eqq.public_activity + '<div>');
   });
 };
+
+;(function () {
+  angular.module('TIY-Github', []);
+
+
+
+})();
