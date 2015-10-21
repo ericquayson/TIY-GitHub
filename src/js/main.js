@@ -33,7 +33,13 @@ $(document).ready(function) {
     */
       $rootScope.eric = response.data;
     })
-  });
+  })
+  .run(function ($http, $rootScope) {
+    $http.get('/apis/github/repos/TIY-Durham/issue.json')
+    .then(function(response) {
+      $rootScope.body = response.data.body;
+    })
+  })
 })();
 
 /*
