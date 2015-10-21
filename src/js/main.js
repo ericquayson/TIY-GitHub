@@ -18,7 +18,7 @@ $(document).ready(function) {
   .run(function($http, $rootScope) {
     $http.get('/apis/github/users/ericquayson.json')
     .then(function(response) {
-    // Baby steps young grasshopper
+    /* Baby steps young grasshopper
       $rootScope.avatar_url = response.data.avatar_url;
       $rootScope.name = response.data.name;
       $rootScope.login = response.data.login;
@@ -30,15 +30,14 @@ $(document).ready(function) {
       $rootScope.followers = response.data.followers;
       $rootScope.starred = response.data.starred;
       $rootScope.following = response.data.following;
+    */
+      $rootScope.eric = response.data;
     })
   });
-
 })();
 
 /*
 Attempting to retrive my repos
-
-
 ;(function () {
   angular.module('TIY-Github', [])
     .run(function($http, $rootScope) {
