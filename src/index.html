@@ -34,11 +34,11 @@
                 <li id="join-date"><i class="fa fa-clock-o"></i>{{eric.created_at | date}}</li>
               </ul>
               </section>
-                <footer>
+                <div>
                   <p>{{eric.followers}}</p>
                   <p>{{eric.starred}}</p>
                   <p>{{eric.following}}</p>
-                </footer>
+                </div>
               </aside> <!-- .left-profile -->
 
               <section class="right-profile">
@@ -49,16 +49,22 @@
                   </nav>
                   <section class="panel" id="contributions">
                     <input type="search" placeholder="Find a repository">
-                      <h3 class="octicon octicon-repo"><a href="www.github.com">{{repos_url}}</a><span class="octicon octicon-star"></span> CSS 9,873 <span class="octicon octicon-git-branch"></span> 69,959</h3>
+                      <h3 class="octicon octicon-repo"><a href="www.github.com">{{eric.repos_url}}</a><span class="octicon octicon-star"></span> CSS 9,873 <span class="octicon octicon-git-branch"></span> 69,959</h3>
                       <p>
                         This repo is for demostration purpose only
                       </p>
-                      <h3 class="octicon octicon-repo"><a href="www.github.com">{{repos_url}}</a> <span class="octicon octicon-star"></span> CSS 1,400 <span class="octicon octicon-git-branch"></span> 16</h3>
+                      <h3 class="octicon octicon-repo"><a href="www.github.com">{{eric.repos_url}}</a> <span class="octicon octicon-star"></span> CSS 1,400 <span class="octicon octicon-git-branch"></span> 16</h3>
                       <p>
                         This is your first repo!
                       </p>
                     </section>
                   </section> <!-- .right-profile -->
+                  <footer>
+                    <form>
+                      Comment: </br>
+                    <textarea name="comment-section" id="comment-section" placeholder="Leave a comment"></textarea>
+                    </form>
+                  </footer>
 
         </main> <!-- End of the container -->
 

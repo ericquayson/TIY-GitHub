@@ -85,38 +85,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-  background-color: #FAEBD7;
-  opacity: 20%;
-  /* End of the main container */
+*, *:after, *:before {
+  box-sizing: border-box;
 }
 
-body main.container {
-  width: 90%;
+body {
+  background-color: #FFF;
+  width: 100%;
+}
+
+main.container {
+  margin: 0 auto;
+  /*  width: 90%; */
   margin-left: 2%;
   margin-right: 5%;
-  /* End of the left profile */
-  /* End of right-profile */
 }
 
-body main.container section.left-profile {
-  box-sizing: border-box;
+section.left-profile {
   background-color: white;
   border: #222 1.5px solid;
   border-radius: 13px;
   padding-left: 30px;
   margin-top: 39px;
-  width: 300px;
+  width: 33.33333;
   height: 1200px;
-  display: inline-block;
-  /* End of the p */
-  /* End of the p */
-  /* End of the p */
-  /* End of the p */
-  /* End of the p#join-date */
+  display: block;
+  float: left;
 }
 
-body main.container section.left-profile h3 {
+section.left-profile h3 {
   border-bottom: lightgrey 2.5px solid;
   width: 100%;
   padding-bottom: 14px;
@@ -127,84 +124,83 @@ body main.container section.left-profile h3 {
   line-height: 20px;
 }
 
-body main.container section.left-profile li#company {
-  text-align: left;
-  letter-spacing: .5px;
-  /* First icon */
-}
-
-body main.container section.left-profile li#company i {
-  padding-right: 10px;
-}
-
-body main.container section.left-profile li#hometown {
-  text-align: left;
-  letter-spacing: .5px;
-  /* Second icon */
-}
-
-body main.container section.left-profile li#hometown i {
-  padding-right: 10px;
-}
-
-body main.container section.left-profile li#email {
-  text-align: left;
-  letter-spacing: .5px;
-}
-
-body main.container section.left-profile li#email i {
-  padding-right: 10px;
-}
-
-body main.container section.left-profile li#blog {
+/* End of the left profile */
+ul li {
+  text-decoration: none;
   text-align: left;
   letter-spacing: .2px;
   color: cornflowerblue;
 }
 
-body main.container section.left-profile li#blog i {
+ul li i {
   padding-right: 10px;
 }
 
-body main.container section.left-profile li#join-date {
-  text-align: left;
-  color: cornflowerblue;
-  padding-bottom: 25px;
-  border-bottom: lightgrey 2.5px solid;
-  /* End of the icon */
-}
-
-body main.container section.left-profile li#join-date i {
-  padding-right: 10px;
-}
-
-body main.container section.right-profile {
+section.right-profile {
   background-color: white;
   border-radius: 13px;
   border: #222 1.5px solid;
-  margin-top: 40px;
-  padding-left: 57px;
-  width: 650px;
-  height: 1200px;
-  float: right;
+  margin-top: 4px;
+  padding-left: 5px;
+  width: 66.66667;
+  height: 600px;
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* End of right-profile */
+div p {
   display: inline-block;
 }
 
-body footer p {
-  display: inline-block;
+/*
+ li#company {
+  text-align: left;
+  letter-spacing: .5px;
+  i {
+    padding-right: 10px;
+  }
+}
+li#hometown {
+  text-align: left;
+  letter-spacing: .5px;
+  i {
+    padding-right: 10px;
+  } /
+}
+li#email {
+  text-align: left;
+  letter-spacing: .5px;
+  i {
+    padding-right: 10px;
+  }
+}
+li#blog {
+  text-align: left;
+  letter-spacing: .2px;
+  color: cornflowerblue;
+  i {
+    padding-right: 10px;
+  }
+}
+li#join-date {
+  text-align: left;
+  color: cornflowerblue;
+  padding-bottom: 25px;
+  border-bottom:lightgrey 2.5px solid;
+  i {
+    padding-right: 10px;
+  }
+}
+*/
+textarea {
+  display: block;
+  height: 300px;
+  width: 400px;
+  float: left;
 }
 
-/* End of the body tag */
-/* Media */
-img {
-  height: auto;
-  width: auto;
-  padding-top: 4px;
-  padding-right: 45px;
-}
-
-/* End of the image */
-/* End of media */
 /* ==========================================================================
    Helper classes
    ========================================================================== */
