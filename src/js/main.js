@@ -10,15 +10,6 @@ $(document).ready(function) {
   });
 };
 
-
-//Repos
-$(document).ready(function) {
-  $.getJSON('../../apis/github/users/ericquayson.json', function (eqq) {
-    $('#contributions').html('<div> contributions ' + eqq.contributions + '<div>');
-    $('#repos').html('<div> repositories ' + eqq.repositories + '<div>');
-    $('#public').html('<div> public_activity ' + eqq.public_activity + '<div>');
-  });
-};
 */
 
 ;(function () {
@@ -36,7 +27,26 @@ $(document).ready(function) {
       $rootScope.email = response.data.email;
       $rootScope.blog = response.data.blog;
       $rootScope.created_at = response.data.created_at;
+      $rootScope.followers = response.data.followers;
+      $rootScope.starred = response.data.starred;
+      $rootScope.following = response.data.following;
     })
   });
 
 })();
+
+/*
+Attempting to retrive my repos
+
+
+;(function () {
+  angular.module('TIY-Github', [])
+    .run(function($http, $rootScope) {
+      $http.get('/apis/github/users/ericquayson/respositories.json')
+        .then(function(response) {
+          $rootScope.repos_url = response.data.repos_url;
+        })
+    });
+
+})();
+*/
