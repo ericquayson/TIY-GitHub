@@ -8,7 +8,7 @@ body {
     margin-left: 2%;
     margin-right: 5%;
 
-    div.left-profile {
+    section.left-profile {
       box-sizing: border-box;
       background-color: white;
       border: #222 1.5px solid;
@@ -29,7 +29,7 @@ body {
         color: #839296;
         line-height: 20px;
       }
-      li#org {
+      li#company {
         text-align: left;
         letter-spacing: .5px;
         i {
@@ -71,7 +71,7 @@ body {
     } /* End of the left profile */
 
 
-    div.right-profile {
+    section.right-profile {
       background-color: white;
       border-radius: 13px;
       border: #222 1.5px solid;
@@ -88,9 +88,10 @@ body {
   } /* End of the main container */
 
   footer {
-    border-bottom: lightgrey 2.5px solid;
-    padding-bottom: 15px;
-    color: cornflowerblue;
+
+    p {
+    display: inline-block;
+  }
 
   }
 } /* End of the body tag */

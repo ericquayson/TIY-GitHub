@@ -99,7 +99,7 @@ body main.container {
   /* End of right-profile */
 }
 
-body main.container div.left-profile {
+body main.container section.left-profile {
   box-sizing: border-box;
   background-color: white;
   border: #222 1.5px solid;
@@ -113,10 +113,10 @@ body main.container div.left-profile {
   /* End of the p */
   /* End of the p */
   /* End of the p */
-  /* End of the li#join-date */
+  /* End of the p#join-date */
 }
 
-body main.container div.left-profile h3 {
+body main.container section.left-profile h3 {
   border-bottom: lightgrey 2.5px solid;
   width: 100%;
   padding-bottom: 14px;
@@ -127,46 +127,46 @@ body main.container div.left-profile h3 {
   line-height: 20px;
 }
 
-body main.container div.left-profile li#org {
+body main.container section.left-profile li#company {
   text-align: left;
   letter-spacing: .5px;
   /* First icon */
 }
 
-body main.container div.left-profile li#org i {
+body main.container section.left-profile li#company i {
   padding-right: 10px;
 }
 
-body main.container div.left-profile li#hometown {
+body main.container section.left-profile li#hometown {
   text-align: left;
   letter-spacing: .5px;
   /* Second icon */
 }
 
-body main.container div.left-profile li#hometown i {
+body main.container section.left-profile li#hometown i {
   padding-right: 10px;
 }
 
-body main.container div.left-profile li#email {
+body main.container section.left-profile li#email {
   text-align: left;
   letter-spacing: .5px;
 }
 
-body main.container div.left-profile li#email i {
+body main.container section.left-profile li#email i {
   padding-right: 10px;
 }
 
-body main.container div.left-profile li#blog {
+body main.container section.left-profile li#blog {
   text-align: left;
   letter-spacing: .2px;
   color: cornflowerblue;
 }
 
-body main.container div.left-profile li#blog i {
+body main.container section.left-profile li#blog i {
   padding-right: 10px;
 }
 
-body main.container div.left-profile li#join-date {
+body main.container section.left-profile li#join-date {
   text-align: left;
   color: cornflowerblue;
   padding-bottom: 25px;
@@ -174,11 +174,11 @@ body main.container div.left-profile li#join-date {
   /* End of the icon */
 }
 
-body main.container div.left-profile li#join-date i {
+body main.container section.left-profile li#join-date i {
   padding-right: 10px;
 }
 
-body main.container div.right-profile {
+body main.container section.right-profile {
   background-color: white;
   border-radius: 13px;
   border: #222 1.5px solid;
@@ -190,10 +190,8 @@ body main.container div.right-profile {
   display: inline-block;
 }
 
-body footer {
-  border-bottom: lightgrey 2.5px solid;
-  padding-bottom: 15px;
-  color: cornflowerblue;
+body footer p {
+  display: inline-block;
 }
 
 /* End of the body tag */
@@ -201,7 +199,7 @@ body footer {
 img {
   height: auto;
   width: auto;
-  padding-top: 20px;
+  padding-top: 4px;
   padding-right: 45px;
 }
 

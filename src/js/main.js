@@ -1,5 +1,5 @@
 //Profile information
-
+/*
 $(document).ready(function) {
   $.getJSON('../../apis/github/users/ericquayson.json', function (eq) {
     $('#name').html('<li> Name: ' + eq.name + '<li>');
@@ -19,10 +19,10 @@ $(document).ready(function) {
     $('#public').html('<div> public_activity ' + eqq.public_activity + '<div>');
   });
 };
+*/
 
 ;(function () {
-  angular.module('TIY-Github', []);
-
+  angular.module('TIY-Github', [])
 
 
 })();
